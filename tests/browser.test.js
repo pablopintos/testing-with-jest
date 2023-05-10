@@ -22,6 +22,12 @@ test('The stack should be empty in the beginning', async () => {
 	let stack = await driver.findElement(By.id('top_of_stack')).getText();
 	expect(stack).toEqual("n/a");
 });
+//Test för inlämning
+test('check if there is h1 element on the page', async() => {
+    const hElement = await driver.findElements(By.tagName("h2"))
+    expect(hElement.length).toBeGreaterThan(0)
+
+})
 
 describe('Clicking "Pusha till stacken"', () => {
 	it('should open a prompt box', async () => {
