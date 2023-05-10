@@ -20,7 +20,7 @@ test('peek on stack with two or more elements returns the top element', () => {
 
 // Test för inlämning
 test('remove top element stack', () => {
-    stack.push('b');
+    stack.push('a');
     const topStackElement = stack.pop();
     expect(topStackElement).toBe('a')
   });

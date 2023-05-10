@@ -24,7 +24,7 @@ test('The stack should be empty in the beginning', async () => {
 });
 //Test för inlämning
 test('check if there is h1 element on the page', async() => {
-    const hElement = await driver.findElements(By.tagName("h2"))
+    const hElement = await driver.findElements(By.tagName("h1"))
     expect(hElement.length).toBeGreaterThan(0)
 
 })
