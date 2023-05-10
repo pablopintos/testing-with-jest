@@ -1,0 +1,19 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "npm test",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablopintos/testing-with-jest.git"
+  },
+  "author": "pablo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablopintos/testing-with-jest/issues"
+  },
+  "homepage": "https://github.com/pablopintos/testing-with-jest#readme"
+}
